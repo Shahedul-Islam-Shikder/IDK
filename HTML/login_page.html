@@ -8,9 +8,13 @@
 </head>
 <body>
   <div class="container">
-      <h1 class="main-title">Mulingo</h1>
+      <div class="main-title-wrapper">
+        <h1 class="main-title">Mulingo</h1>
+      </div>
 
-      <h4 class="sub-title">Log in to your account</h4>
+      <div class="sub-title-wrapper">
+        <h4 class="sub-title">Log in to your account</h4>
+      </div>
 
       <form class="login-form">
 
@@ -26,6 +30,14 @@
         
         <button class="sign-in-btn" type="submit">Sign in</button>
       </form>
+      <div>
+        <p class="sign-up-text">Don't have an account? <a href="signup_page.html" class="sign-up-link">Sign up</a></p>
+      </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script>
+    <script src="..\Script\login.js"></script>
 </body>
 </html>
