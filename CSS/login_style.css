@@ -1,0 +1,19 @@
+body {
+  background-color: #111926;
+  margin: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+label{
+  color: white;
+}
+
+.container{
+  
+}
+
+.heading-login{
+  color: white;
+}
