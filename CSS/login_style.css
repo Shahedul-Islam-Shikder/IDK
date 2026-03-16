@@ -1,19 +1,90 @@
 body {
   background-color: #111926;
-  margin: 0px;
+  margin: 0;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', Arial, sans-serif;
 }
 * {
   margin: 0;
   padding: 0;
-}
-label{
-  color: white;
+  box-sizing: border-box;
 }
 
-.container{
-  
+.container {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-.heading-login{
-  color: white;
+.main-title {
+  color: #fff;
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sub-title {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.input-field {
+  background: #181f2a;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.9rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.input-field:focus {
+  border: 1.5px solid #6c63ff;
+}
+
+.sign-in-btn {
+  background: #6c63ff;
+  color: #ffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.9rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.sign-in-btn:hover {
+  background: #7f78f8;
 }
